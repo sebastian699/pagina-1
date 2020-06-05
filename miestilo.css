@@ -1,0 +1,121 @@
+
+/*encabezado*/
+
+body{
+	font-family: "arial";
+}
+header{
+	background: #696;
+	padding: 1em;
+}
+h1{
+	display: inline;
+}
+a{
+	font-size: 24px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.6);
+	text-decoration: none;
+	padding: 0.3em 0.5em;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.6);
+	transition: background-color is linear;
+}
+form{
+   display: inline;
+   margin-left: auto;
+   padding-left: 2em;
+   width: 100%;
+}
+label{
+    font-size: 24px;
+}
+input{
+   padding: 0.7em 0.5em;	
+}
+button{
+	padding: 0.7em 1em;
+	cursor: pointer;
+}
+input, button{
+	font-size: 16px;
+	color: #000;
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.3);
+	transition: background-color is linear
+}
+a:hover, input:hover, button:hover,
+a:focus, input:focus, button:focus {
+	background-color: #fff;
+}
+
+a:focus, input:focus, button:focus{
+	box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.25);
+	outline: 0;
+}
+input, button{
+	border: 0;
+}
+a{
+	color: green;
+}
+a:active{
+	text-decoration: none;
+	color:#000;
+}
+a:link{
+	color#fff;
+	
+}
+
+
+/*cuerpo*/
+
+body  {
+      background-color: #ccc;
+	  color: #333;
+	 
+}
+
+h1, h2 {
+    font-family: Helvetica;
+}
+h1{
+   font-size: 3em;
+}
+h2{
+   font-size: 2em;
+}
+p{
+  font-family: Helvetica;
+}
+:focus{border:2px solid #385D8A;}
+
+
+/*barra de navegacion*/
+
+.horizontal li{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+	
+.horizontal a {
+	margin: 0;
+    color: #FFFFFF;
+	background-color: #98bf21;
+	text-align: center;
+	padding: 4px;
+}
+
+.horizontal a:hover,.horizontal a:active {
+	background-color:#7A991A;
+}
+a{
+	text-decoration:none;
+}
+.no-style{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
